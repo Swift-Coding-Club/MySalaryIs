@@ -14,6 +14,7 @@
 		B620FBF02910E9EE00F64ADB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B620FBEF2910E9EE00F64ADB /* Preview Assets.xcassets */; };
 		B620FBF22910E9EE00F64ADB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF12910E9EE00F64ADB /* Persistence.swift */; };
 		B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF32910E9EE00F64ADB /* MySalaryIs.xcdatamodeld */; };
+		B671AD3229227613002A2975 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B671AD3129227613002A2975 /* DetailView.swift */; };
 		B68FED19291149DD00A5B4A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FED18291149DD00A5B4A2 /* MainViewController.swift */; };
 		B6ACE0F52919E6B60038EC95 /* AddFixedExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ACE0F42919E6B60038EC95 /* AddFixedExpenseView.swift */; };
 		B6ACE0F92919EE560038EC95 /* MainViewLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6ACE0F82919EE560038EC95 /* MainViewLocalizable.strings */; };
@@ -31,6 +32,7 @@
 		B620FBEF2910E9EE00F64ADB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B620FBF12910E9EE00F64ADB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B620FBF42910E9EE00F64ADB /* MySalaryIs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySalaryIs.xcdatamodel; sourceTree = "<group>"; };
+		B671AD3129227613002A2975 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B68FED18291149DD00A5B4A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B6ACE0F42919E6B60038EC95 /* AddFixedExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFixedExpenseView.swift; sourceTree = "<group>"; };
 		B6ACE0F82919EE560038EC95 /* MainViewLocalizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = MainViewLocalizable.strings; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		B620FBE72910E9ED00F64ADB /* MySalaryIs */ = {
 			isa = PBXGroup;
 			children = (
+				B671AD30292275E1002A2975 /* DetailView */,
 				B6ACE0F62919EDD20038EC95 /* Resources */,
 				B6ACE0FC2919EEAF0038EC95 /* Views */,
 				B6ACE0F32919E5940038EC95 /* ViewModel */,
@@ -97,6 +100,14 @@
 				B620FBEF2910E9EE00F64ADB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B671AD30292275E1002A2975 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				B671AD3129227613002A2975 /* DetailView.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 		B6ACE0F32919E5940038EC95 /* ViewModel */ = {
@@ -209,6 +220,7 @@
 				B620FBF22910E9EE00F64ADB /* Persistence.swift in Sources */,
 				B60A009D2912788600EFEB33 /* FixedExpenseModel.swift in Sources */,
 				B6E1EA3A2919F84700A493E6 /* FixedExpenseRowView.swift in Sources */,
+				B671AD3229227613002A2975 /* DetailView.swift in Sources */,
 				B6E1EA382919F62900A493E6 /* ShowResultView.swift in Sources */,
 				B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */,
 				B620FBEB2910E9ED00F64ADB /* ContentView.swift in Sources */,
